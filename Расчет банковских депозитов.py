@@ -4,5 +4,3 @@ procent = list(per_cent.values())
 deposit = [(money*procent[0]/100), (money*procent[1]/100), (money*procent[2]/100), (money*procent[3])/100]
 deposit_i = max(deposit)
 print('Максимальная сумма, которую вы можете заработать:', deposit_i)
-
-

@@ -12,8 +12,8 @@ for i in range(tickets):
         result += 1390
 if tickets > 3:
     result = result * 0.9
-    print("Итого стоимость билетов составила:" + str(round(result)) + "рублей с учетом скидки 10%")
+    print("Итого стоимость билетов составила:" + str(round(result)) + " рублей с учетом скидки 10%")
 else:
-    print("Итого стоимость билетов составила:" + str(round(result)) + "рублей")
+    print("Итого стоимость билетов составила:" + str(round(result)) + " рублей")
 
 
